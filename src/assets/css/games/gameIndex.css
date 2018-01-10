@@ -1,0 +1,175 @@
+
+.gameIndex{
+    width: 100%;
+    overflow: hidden;
+    background-color: #ff7282;
+    position: relative;
+}
+.gameTop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.8rem;
+    width: 100%;
+    /*background-color: #7ecef4;*/
+}
+.playBox{
+    overflow: hidden;
+    position: absolute;
+    top: 4rem;
+    border: 3px solid white;
+    left: 0;
+    right: 0;
+    height: 20rem;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+.arrow img{
+    width: 100%;
+    height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.handle{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.topA,.downA,.leftA,.rightA{
+  position: absolute;
+  border-radius: 100%;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.topA{
+    bottom: 9rem;
+    left:6rem;
+}
+.downA{
+    bottom: 4rem;
+    left: 6rem;
+}
+.leftA{
+    bottom: 6.5rem;
+    left: 3rem;
+}
+.rightA{
+    bottom: 6.5rem;
+    left: 9rem;
+}
+button {
+    outline: 0;
+}
+.play{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    background-color: #ff7282;
+    position: absolute;
+    right: 3.5rem;
+    bottom: 6.5rem;
+}
+.wawalogo{
+    color:#fff;
+    font-size:1.8rem;
+}
+.zhuazi{
+  position: absolute;
+  top: -150px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.diaLogContent{
+  width: 100%;
+  height: 220px;
+  background-color: #ff8401;
+}
+.gameStartImg{
+  text-align: center;
+}
+.bdr{
+  border-radius: 10px; ;
+}
+.gamePayBtn{
+  background-color: #fdd248;
+  color:white;
+  border-radius: 20px;
+}
+.dialog1Money{
+
+  float:right;
+}
+.colorDefault{
+  background-color: #e0e0e0;
+}
+.gamePlayBtnBox p{
+  padding:  10px 0;
+}
+.gameTryNow{
+  margin: 2px 0;
+  height:2.8rem;
+  width:6.3rem;
+  color:white;
+  border-radius: 3rem;
+}
+.gamePlayBtnBox{
+  text-align: center;
+}
+.gameGoodsName{
+  color:#ff7282;
+}
+.playingText{
+  margin-top: 20px;
+  text-align: center;
+  color:white;
+}
+.giftBox{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.giftBox>div{
+  width: 30%;
+  height: auto;
+  float:left;
+  position: relative;
+}
+.giftBox img{
+  height: 100%;
+  width: 100%;
+}
+div.giftBoxCenter{
+  width: 35%;
+}
+.giftBoxHint{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: -2px;
+  color: white;
+}
+.gameOut{
+  float:right;
+  background-color: #ff7383;
+  color:white;
+}
+.gameTitle{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  line-height:2.8rem ;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
+
+
+

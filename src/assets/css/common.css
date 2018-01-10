@@ -1,0 +1,10 @@
+.bottomBar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.bottomActive{
+  color:red;
+  background-color: green;
+}
